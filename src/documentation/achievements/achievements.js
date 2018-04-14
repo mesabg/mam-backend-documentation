@@ -1,11 +1,11 @@
 /**
  *
- * @api {get} /api/page/achievements List All
+ * @api {get} /api/achievements List Achievements
  * @apiVersion 1.0.0
  * 
  * @apiDescription List all achievements.
  *
- * @apiName List All
+ * @apiName List Achievements
  * @apiGroup Achievements
  *
  * @apiParamExample query example:

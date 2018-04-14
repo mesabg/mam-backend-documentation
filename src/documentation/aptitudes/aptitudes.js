@@ -1,11 +1,11 @@
 /**
  *
- * @api {get} /api/page/aptitudes List All
+ * @api {get} /api/aptitudes List Aptitudes
  * @apiVersion 1.0.0
  *
  * @apiDescription List all aptitudes.
  * 
- * @apiName List All
+ * @apiName List Aptitudes
  * @apiGroup Aptitudes
  *
  * @apiParamExample query example:
