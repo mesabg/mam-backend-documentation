@@ -1,0 +1,27 @@
+{
+  "name": "mam-backend-documentation",
+  "version": "1.0.0",
+  "description": "documentation",
+  "main": "index.js",
+  "scripts": {
+    "docs": "apidoc -i src/ -o dist",
+    "predeploy": "npm run docs",
+    "deploy": "http-serve ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/mam-restful-api-docs.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "restful",
+    "mam"
+  ],
+  "author": "Moises Berenguer",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "http-serve": "^1.0.1"
+  }
+}

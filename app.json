@@ -1,0 +1,7 @@
+{
+    "name": "mam-backend-documentation",
+    "description": "MAM NodeJS Rest API Documentation",
+    "repository": "https://git.heroku.com/mam-restful-api-docs.git",
+    "keywords": ["Rest" , "API", "MAM", "Heroku", "Documentation"],
+    "image": "heroku/nodejs"
+}
