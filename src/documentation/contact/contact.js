@@ -1,6 +1,6 @@
 /**
  *
- * @api {get} /api/contact Create Contact
+ * @api {post} /api/contact Create Contact
  * @apiVersion 1.0.0
  *
  * @apiDescription Create a new entry in contact model.
