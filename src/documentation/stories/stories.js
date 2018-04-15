@@ -58,7 +58,7 @@
  * @apiName Single Story
  * @apiGroup Stories
  * 
- * @apiParam {Number} slug
+ * @apiParam {Number} slug Slug Identifier of the post
  *
  * @apiParamExample query example:
  * https://mam-restful-api.herokuapp.com/api/stories/portfolio?slug=majo-y-ale
