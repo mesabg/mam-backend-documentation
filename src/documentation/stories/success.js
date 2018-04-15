@@ -96,7 +96,6 @@
         "_id": "5ad2de46821945000494145d",
         "slug": "majo-y-ale",
         "title": "Majo y Ale",
-        "testimonies": [],
         "image": {
             "secondary": [
                 {
@@ -185,7 +184,63 @@
             }
         },
         "location": "Valencia, Venezuela",
-        "description": "<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>"
+        "description": "<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>",
+        "testimonies": [
+            {
+                "_id": "5ad3abc259d136000400763c",
+                "slug": "duis-aute-irure-dolor",
+                "name": "Duis aute irure dolor",
+                "author": "Duis aute irure dolor",
+                "content": "<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; text-align: justify;\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</span></p>",
+                "image": {
+                    "public_id": "lzu5szhjxrz4ur6ayroa",
+                    "version": 1523821552,
+                    "signature": "5dd9c56d391ceb3f625c436168efdf1b62a66038",
+                    "width": 1280,
+                    "height": 700,
+                    "format": "png",
+                    "resource_type": "image",
+                    "url": "http://res.cloudinary.com/keystone-demo/image/upload/v1523821552/lzu5szhjxrz4ur6ayroa.png",
+                    "secure_url": "https://res.cloudinary.com/keystone-demo/image/upload/v1523821552/lzu5szhjxrz4ur6ayroa.png"
+                }
+            },
+            {
+                "_id": "5ad3ab3959d136000400763a",
+                "slug": "fugiat-nulla-pariatur",
+                "name": "Fugiat nulla pariatur",
+                "author": "Fugiat nulla pariatur",
+                "content": "<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; text-align: justify;\">nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>",
+                "image": {
+                    "public_id": "jcv9j07wogepptembzma",
+                    "version": 1523821395,
+                    "signature": "5f18483c6e76b7bcf725a069f2dddec032b35dd9",
+                    "width": 320,
+                    "height": 320,
+                    "format": "png",
+                    "resource_type": "image",
+                    "url": "http://res.cloudinary.com/keystone-demo/image/upload/v1523821395/jcv9j07wogepptembzma.png",
+                    "secure_url": "https://res.cloudinary.com/keystone-demo/image/upload/v1523821395/jcv9j07wogepptembzma.png"
+                }
+            },
+            {
+                "_id": "5ad3ab7059d136000400763b",
+                "slug": "eiusmod-tempor-incididunt",
+                "name": "Eiusmod tempor incididunt",
+                "author": "Eiusmod tempor incididunt",
+                "content": "<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; text-align: justify;\">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></p>",
+                "image": {
+                    "public_id": "lvnxquvxfpgcn3gz1a8s",
+                    "version": 1523821494,
+                    "signature": "db50a5a271137da7ffb8cc0a0e4900992faf244f",
+                    "width": 1280,
+                    "height": 797,
+                    "format": "png",
+                    "resource_type": "image",
+                    "url": "http://res.cloudinary.com/keystone-demo/image/upload/v1523821494/lvnxquvxfpgcn3gz1a8s.png",
+                    "secure_url": "https://res.cloudinary.com/keystone-demo/image/upload/v1523821494/lvnxquvxfpgcn3gz1a8s.png"
+                }
+            }
+        ]
     }
 }
  *
