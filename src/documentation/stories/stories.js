@@ -8,8 +8,8 @@
  * @apiName List Outstanding Stories
  * @apiGroup Stories
  * 
- * @apiParam {Number} limit
- * @apiParam {Number} page
+ * @apiParam {Number} limit must be a value greater or equal to 1 otherwise no pagination is applied
+ * @apiParam {Number} page must be a value greater or equal to 1 otherwise no pagination is applied
  *
  * @apiParamExample query example:
  * https://mam-restful-api.herokuapp.com/api/stories/outstanding
@@ -33,8 +33,8 @@
  * @apiName List Portfolio Stories
  * @apiGroup Stories
  * 
- * @apiParam {Number} limit
- * @apiParam {Number} page
+ * @apiParam {Number} limit must be a value greater or equal to 1 otherwise no pagination is applied
+ * @apiParam {Number} page must be a value greater or equal to 1 otherwise no pagination is applied
  *
  * @apiParamExample query example:
  * https://mam-restful-api.herokuapp.com/api/stories/portfolio
