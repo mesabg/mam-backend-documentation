@@ -1,5 +1,28 @@
 /**
  *
+ * @api {get} /api/stories List All Stories
+ * @apiVersion 1.0.0
+ *
+ * @apiDescription List all stories in crm.
+ * 
+ * @apiName List All Stories
+ * @apiGroup Stories
+ * 
+ * @apiParam {Number} limit must be a value greater or equal to 1 otherwise no pagination is applied
+ * @apiParam {Number} page must be a value greater or equal to 1 otherwise no pagination is applied
+ *
+ * @apiParamExample query example:
+ * https://mam-restful-api.herokuapp.com/api/stories
+ * https://mam-restful-api.herokuapp.com/api/stories?page=1&limit=10
+ *
+ * @apiUse HeadersRequired
+ * @apiUse SuccessGetAllStories
+ * @apiUse CommonError
+ * @apiUse UnauthorizeError
+ */
+
+/**
+ *
  * @api {get} /api/stories/outstanding List Outstanding Stories
  * @apiVersion 1.0.0
  *
