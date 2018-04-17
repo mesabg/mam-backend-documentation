@@ -13,10 +13,10 @@
         "state": "published",
         "__v": 0,
         "content": {
-            "description": "",
-            "title": ""
+            "description": "<p>natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non</p>",
+            "title": "<p style=\"text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>"
         },
-        "publishedDate": "2018-04-13T00:00:00.000Z"
+        "publishedDate": "2018-04-12T00:00:00.000Z"
     }
 }
  *
@@ -153,4 +153,29 @@
     }
 }
  *
+ */
+
+
+/**
+ * Successfully response mam page
+ * @apiDefine SuccessGetStoriesPage
+ * @apiSuccessExample Success:
+ * HTTP/1.1 200 OK
+{
+    "statusMessage": "Success",
+    "statusCode": 200,
+    "data": {
+        "_id": "5ad569940fc33e0004d5dad3",
+        "slug": "historias",
+        "title": "Historias",
+        "state": "published",
+        "__v": 0,
+        "content": {
+            "description": "<p style=\"text-align: justify;\"><span style=\"font-family: 'Open Sans', Arial, sans-serif;\">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter&nbsp;</span></p>",
+            "title": "<p style=\"text-align: justify;\"><span style=\"font-family: 'Open Sans', Arial, sans-serif;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</span></p>"
+        },
+        "publishedDate": "2018-04-16T00:00:00.000Z"
+    }
+}
+ * 
  */
